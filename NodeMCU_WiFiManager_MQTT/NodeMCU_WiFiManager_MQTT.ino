@@ -13,6 +13,9 @@
 #include <DHT.h>
 #include <PubSubClient.h>
 
+// WiFiManager AP name
+#define WM_AP_NAME  "NodeMCUWiFiConfig-ghliaw"
+
 // constants for RGB LED
 #define RGBLED_ON  false // for common anode LED
 #define RGBLED_OFF true  // for common anode LED
